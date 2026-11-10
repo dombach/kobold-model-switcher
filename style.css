@@ -1,0 +1,49 @@
+/* Kobold Model Switcher Styles */
+
+.kms-container {
+    padding: 10px;
+}
+
+.kms-empty {
+    color: var(--text-color-secondary);
+    font-style: italic;
+    font-size: 13px;
+    margin: 4px 0;
+}
+
+.kms-status {
+    color: var(--text-color-secondary);
+    margin: 4px 0;
+}
+
+#kms_model_list {
+    margin-top: 8px;
+}
+
+#kms_model_list select {
+    background: var(--input-bg-color);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 6px 8px;
+    font-size: 13px;
+}
+
+#kms_switch_btn {
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: opacity 0.2s;
+}
+
+#kms_switch_btn:hover {
+    opacity: 0.85;
+}
+
+#kms_switch_btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
